@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Inception",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
+    "year": 2010,
+    "runtime": "148 min",
+    "rating": 8.8,
+    "cast": [
+      {"name": "Leonardo DiCaprio", "character": "Cobb"},
+      {"name": "Joseph Gordon-Levitt", "character": "Arthur"},
+      {"name": "Elliot Page", "character": "Ariadne"}
+    ],
+    "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "genre": ["Action", "Adventure", "Sci-Fi"]
+  },
+  {
+    "title": "The Dark Knight",
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+    "year": 2008,
+    "runtime": "152 min",
+    "rating": 9.0,
+    "cast": [
+      {"name": "Christian Bale", "character": "Bruce Wayne / Batman"},
+      {"name": "Heath Ledger", "character": "Joker"},
+      {"name": "Aaron Eckhart", "character": "Harvey Dent"}
+    ],
+    "plot": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+    "genre": ["Action", "Crime", "Drama"]
+  },
+  {
+    "title": "Interstellar",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+    "year": 2014,
+    "runtime": "169 min",
+    "rating": 8.6,
+    "cast": [
+      {"name": "Matthew McConaughey", "character": "Cooper"},
+      {"name": "Anne Hathaway", "character": "Brand"},
+      {"name": "Jessica Chastain", "character": "Murph"}
+    ],
+    "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "genre": ["Adventure", "Drama", "Sci-Fi"]
+  },
+  {
+    "title": "The Matrix",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+    "year": 1999,
+    "runtime": "136 min",
+    "rating": 8.7,
+    "cast": [
+      {"name": "Keanu Reeves", "character": "Neo"},
+      {"name": "Laurence Fishburne", "character": "Morpheus"},
+      {"name": "Carrie-Anne Moss", "character": "Trinity"}
+    ],
+    "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "genre": ["Action", "Sci-Fi"]
+  },
+  {
+    "title": "The Social Network",
+    "poster": "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+    "year": 2010,
+    "runtime": "120 min",
+    "rating": 7.8,
+    "cast": [
+      {"name": "Jesse Eisenberg", "character": "Mark Zuckerberg"},
+      {"name": "Andrew Garfield", "character": "Eduardo Saverin"},
+      {"name": "Justin Timberlake", "character": "Sean Parker"}
+    ],
+    "plot": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea.",
+    "genre": ["Biography", "Drama"]
+  }
+]

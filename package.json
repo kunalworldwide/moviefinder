@@ -1,0 +1,13 @@
+{
+  "name": "movie-search-app",
+  "version": "1.0.0",
+  "description": "Movie Search Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
