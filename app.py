@@ -10,9 +10,23 @@ st.set_page_config(
 )
 
 # TMDB API configuration
-TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
-BASE_URL = "https://api.themoviedb.org/3"
-IMAGE_URL = "https://image.tmdb.org/t/p/w500"
+try:
+    TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
+    BASE_URL = "https://api.themoviedb.org/3"
+    IMAGE_URL = "https://image.tmdb.org/t/p/w500"
+except KeyError:
+    st.error("""
+        ⚠️ API Key Missing!
+        
+        Please configure your TMDB API key:
+        1. For local development: Add it to .streamlit/secrets.toml
+        2. For Streamlit Cloud: Add it in the Secrets section
+        
+        The key should be in format:
+        [secrets]
+        TMDB_API_KEY = "your_api_key_here"
+    """)
+    st.stop()
 
 # Custom CSS for styling
 st.markdown("""
